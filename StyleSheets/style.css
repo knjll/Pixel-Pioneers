@@ -1,0 +1,74 @@
+
+  a.sample:link { color:black; padding: 14px 25px;}
+  a.sample:visited { color:palevioletred;}
+  a.sample:hover { color:white; background-color:palevioletred;}
+  a.sample:active { color: black;}
+
+  a.book:link { color:black; padding: 14px 25px;}
+  a.book:visited { color:palevioletred;}
+  a.book:hover { color:white; background-color:palevioletred;}
+  a.book:active { color: black}
+
+  a.contact:link { color:palevioletred; padding: 14px 25px;}
+  a.contact:visited { color:palevioletred; }
+  a.contact:hover { color:white; background-color:palevioletred;}
+  a.contact:active { color: black}
+
+  a.mail:link { color:palevioletred; padding: 14px 25px;}
+  a.mail:visited { color:palevioletred; }
+  a.mail:hover { color:white; background-color:palevioletred;}
+  a.mail:active { color: black}
+
+  * {box-sizing: border-box}
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width:25%;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+
+.detail{
+    padding:15px 15px 15px;
+    
+}
+
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+td,tr{
+    padding-left: 16px;
+    text-align: left;
+}
+
+img {
+    float: left;
+    border: 1px dotted black;
+    margin: 0px 0px 15px 20px;
+  }

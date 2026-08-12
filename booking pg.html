@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography</title>
+    <link rel="stylesheet" href="StyleSheets\style3.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Photography Session Booking Form</h1>
+
+        <form action="#" method="POST">
+            <div class="form-section">
+                <label for="name">Name *</label>
+                <input type="text" id="name" placeholder="First Name" required>
+
+                <input type="text" placeholder="Last Name" required>
+            </div>
+
+            <div class="form-control">
+                <label for="email">E-mail *</label>
+                <input type="email" id="email" placeholder="ex: myname@example.com" required>
+            </div>
+
+            <div class="form-section">
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" placeholder="phone number" required>
+                <label for ="Area code">Area code</label>
+                <input type="tel" placeholder="code" required>
+            </div>
+
+            <div class="form-section">
+                <label for="address">Address *</label>
+                <input type="text" id="address" placeholder="Street Address" required>
+                <input type="text" placeholder="Street Address Line 2">
+                <input type="text" placeholder="City" required>
+                <input type="text" placeholder="State / Province" required>
+                <input type="text" placeholder="Postal / Zip Code" required>
+                <select>
+                    <option value="">Country</option>
+                    <option value="US">United States</option>
+                    <option value="CA">Canada</option>
+
+                </select>
+            </div>
+
+            <div class="form-section">
+                <label>Did Pixel Pioneers give you a session to confirm prior to filling out this form? *</label>
+                <label><input type="radio" name="session_confirm" value="yes" required> Yes, continue with form submission</label>
+                <label><input type="radio" name="session_confirm" value="no" required> No, please stop and contact Pixel Pioneers for a session date</label>
+            </div>
+
+            <div class="form-section">
+                <label>Session Date & Time *</label>
+                <input type="date" required>
+                <input type="time" required>
+            </div>
+
+            <div class="form-section">
+                <label for="people">Number of People in Session *</label>
+                <input type="number" id="people" placeholder="ex: 3" required>
+            </div>
+
+            <div class="form-section">
+                <label for="family">Spouse's Name & Child(ren)'s Names/Ages *</label>
+                <input type="text" id="family" placeholder="Names and Ages" required>
+            </div>
+
+            <div class="form-section">
+                <label for="location">Session Location *</label>
+                <select id="location" required>
+                    <option value="">Please Select</option>
+                    <option value="indoor">Indoor</option>
+                    <option value="outdoor">Outdoor</option>
+                </select>
+            </div>
+
+            <div class="form-section">
+                <label for="session_type">Type of Session *</label>
+                <select id="session_type" required>
+                    <option value="">Please Select</option>
+                    <option value="family">Family</option>
+                    <option value="portrait">Portrait</option>
+                </select>
+            </div>
+
+            <div class="form-section">
+                <label for="notes">Note to Photographer</label>
+                <textarea id="notes" placeholder="Any specific requests or information..."></textarea>
+            </div>
+
+            <div class="form-section">
+                <h3>Client Portrait Agreement / Contract / Waiver / Copyright Acknowledgment & Policies</h3>
+                <div class="policy">
+                    <p>Model Release: I have read and agree to the following statement: I commission Pixel Pioneers, the photographer, to photograph myself and/or my spouse and/or underage children. I hereby grant and understand that Pixel Pioneers may use my images (but not limited to) social media / advertisement etc., and there will be no further compensation for the above.</p>
+                </div>
+                <div class="policy">
+                    <p>Copyright & Policies: As a client of Pixel Pioneers, I acknowledge and understand that the images taken by Pixel Pioneers, the photographer, are protected by Federal copyright laws. I understand it is illegal to scan, copy, print, or reproduce without the photographer's permission, and violators of this law will be subject to civil and criminal penalties.</p>
+                </div>
+                <div class="policy">
+                    <p>Portrait Session Agreement & Policies: I understand that my session is not confirmed until the retainer is paid. Weather cancellations will be made at the photographer's discretion. Tardiness of my session will not delay my session. My session will remain within the scheduled time frame.</p>
+                </div>
+                <div class="policy">
+                    <p>Photo Session Retainer & Session Payment Agreement & Policies: I have read and agree to the following statement: I understand that my session is not confirmed until a non-refundable retainer of $100 plus tax is paid to Pixel Pioneers. When I "submit" this form, I will be redirected to PayPal to complete my retainer payment.</p>
+                </div>
+                <label><input type="checkbox" required> I Agree</label>
+                <label><input type="checkbox" required> I Disagree</label>
+            </div>
+
+            <div class="form-section">
+                <button type="submit">Submit Booking Form</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
